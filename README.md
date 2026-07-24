@@ -7,7 +7,7 @@ retinal ganglion cells without needing large amounts of memory or runtime.
 To run MLPsemble_tutorial.py:
 
 1. Clone this github using the link https://github.com/YeRo-Lab/MLPsemble.git or download the .zip file 
-2. To use the Tran dataset run the join_tran.py file and ensure the output points to the directory 'Data/Tran/'
+2. To use the Tran dataset run the tran_join.py file and ensure the output points to the directory 'Data/Tran/'
 3. Go to the main() in MLPsemble and ensure that the file name matches with RuiChen.h5ad, Rheaume.h5ad, or Tran.h5ad
 4. Next run MLPsemble.py to see the tutorial on how the model works
 
