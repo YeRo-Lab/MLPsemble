@@ -3,13 +3,16 @@ MLPsemble is an ensemble neural network that utilizes Logistic Regression, K-Nea
 as base models and uses Out-Of-Fold predictions to train a Multi-Layer Perceptron. Its purpose is to identify rare
 retinal ganglion cells without needing large amounts of memory or runtime.
 
+<img width="1497" height="763" alt="MLPsemble_Architecture" src="https://github.com/user-attachments/assets/c9f280d1-9229-4f20-b331-4f58bec95037" />
+
+
 
 To run MLPsemble_tutorial.py:
 
-1. Clone this github using the link https://github.com/YeRo-Lab/MLPsemble.git or download the .zip file 
-2. To use the Tran dataset run the tran_join.py file and ensure the output points to the directory 'Data/Tran/'
-3. Go to the main() in MLPsemble and ensure that the file name matches with RuiChen.h5ad, Rheaume.h5ad, or Tran.h5ad
-4. Next run MLPsemble.py to see the tutorial on how the model works
+1. Clone this GitHub using the link https://github.com/YeRo-Lab/MLPsemble.git or download the .zip file 
+2. To use the Tran dataset, run the tran_join.py file and ensure the output points to the directory 'Data/Tran/'
+3. Go to main() in MLPsemble and ensure that the file name matches RuiChen.h5ad, Rheaume.h5ad, or Tran.h5ad
+4. Next, run MLPsemble.py to see the tutorial on how the model works
 
 
 Access to the original publications containing the datasets can be found below:
